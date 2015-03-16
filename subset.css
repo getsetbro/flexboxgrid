@@ -1,0 +1,33 @@
+body{margin:0;}
+body *{box-sizing: border-box;}
+
+.row {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.col-xs-12 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+
+@media only screen and (min-width: 48em){
+
+  .col-sm-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+
+
+.box-row {
+  min-height: 3rem;
+  background: #007FFF;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.5em
+}
